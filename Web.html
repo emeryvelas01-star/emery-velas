@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emery - Velas Aromáticas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="brand-title">Emery</h1>
+    <p class="brand-subtitle">Velas Aromáticas</p>
+
+    <!-- Sección Redes Sociales para Link de Bio -->
+    <div class="social-links">
+      <a href="https://instagram.com/emery_py" target="_blank" class="social-btn">Instagram (@emery_py)</a>
+      <a href="https://wa.me/595987348271" target="_blank" class="social-btn">WhatsApp Directo</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2 style="text-align: center; font-family: 'Playfair Display', serif;">Catálogo de Productos</h2>
+    <div id="catalog" class="catalog-grid"></div>
+  </div>
+
+  <!-- Botón Carrito WhatsApp -->
+  <button class="cart-floating-btn" onclick="enviarWhatsApp()">
+    🛒 Ver Pedido (<span id="cart-count">0</span>)
+  </button>
+
+  <script>
+    const PHONE_NUMBER = "595987348271"; // Número extraído de las imágenes
+    let carrito = [];
+
+    // Cargar productos desde productos.json
+    async function cargarProductos() {
+      const res = await fetch('productos.json');
+      const productos = await res.json();
+      const catalogDiv = document.getElementById('catalog');
+      
+      catalogDiv.innerHTML = productos.map(prod => `
+        <div class="card">
+          <img src="${prod.imagen}" alt="${prod.nombre}">
+          <h3>${prod.nombre} - ${prod.peso}</h3>
+          <p>${prod.descripcion}</p>
+          <div class="price">Gs. ${prod.precio.toLocaleString('es-PY')}</div>
+          ${prod.etiqueta ? `<small style="color:red; font-weight:bold;">${prod.etiqueta}</small>` : ''}
+          <button class="btn-add" onclick="agregarAlCarrito('${prod.nombre}', ${prod.precio})">Agregar al Carrito</button>
+        </div>
+      `).join('');
+    }
+
+    function agregarAlCarrito(nombre, precio) {
+      carrito.push({ nombre, precio });
+      document.getElementById('cart-count').innerText = carrito.length;
+      alert(`¡${nombre} agregado al carrito!`);
+    }
+
+    function enviarWhatsApp() {
+      if (carrito.length === 0) {
+        alert("El carrito está vacío.");
+        return;
+      }
+
+      let mensaje = "¡Hola Emery! 🌿 Quisiera realizar el siguiente pedido:\n\n";
+      let total = 0;
+
+      carrito.forEach((item, index) => {
+        mensaje += `${index + 1}. ${item.nombre} - Gs. ${item.precio.toLocaleString('es-PY')}\n`;
+        total += item.precio;
+      });
+
+      mensaje += `\n*Total estimado: Gs. ${total.toLocaleString('es-PY')}*`;
+
+      const url = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(mensaje)}`;
+      window.open(url, '_blank');
+    }
+
+    cargarProductos();
+  </script>
+</body>
+</html>
