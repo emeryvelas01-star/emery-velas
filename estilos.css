@@ -1,44 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
-
-:root {
-  --bg-color: #FBF8F3;
-  --card-bg: #FFFFFF;
-  --primary-color: #5C4033; /* Café cálido */
-  --accent-color: #C59B27;  /* Dorado */
-  --text-dark: #333333;
-  --text-muted: #777777;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-dark);
-  margin: 0;
-  padding: 0;
-}
-
-/* Encabezado / Linktree Header */
-header {
-  text-align: center;
-  padding: 40px 20px 20px 20px;
-}
-
-.brand-title {
-  font-family: 'Alex Brush', cursive;
-  font-size: 3.5rem;
-  color: var(--primary-color);
-  margin: 0;
-}
-
-.brand-subtitle {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 3px;
-  font-size: 0.9rem;
-  color: var(--accent-color);
-  text-transform: uppercase;
-}
-
-/* Sección de Redes Sociales (Para Link en Bio) */
 .social-links {
   display: flex;
   justify-content: center;
@@ -46,86 +5,21 @@ header {
   margin: 20px 0;
 }
 
-.social-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid var(--accent-color);
-  border-radius: 25px;
-  color: var(--primary-color);
+.social-btn.icon-only {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid var(--accent-color, #C59B27);
+  border-radius: 50%;
+  color: var(--primary-color, #5C4033);
+  font-size: 1.3rem;
   text-decoration: none;
-  font-weight: 600;
   transition: all 0.3s ease;
 }
 
-.social-btn:hover {
-  background-color: var(--accent-color);
-  color: white;
-}
-
-/* Grid de Catálogo */
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-
-.catalog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-}
-
-.card {
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.card h3 {
-  font-family: 'Playfair Display', serif;
-  color: var(--primary-color);
-  margin: 15px 0 5px 0;
-}
-
-.card .price {
-  font-weight: bold;
-  color: var(--accent-color);
-  font-size: 1.2rem;
-}
-
-.btn-add {
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-top: 10px;
-  width: 100%;
-}
-
-/* Carrito Flotante */
-.cart-floating-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366; /* Verde WhatsApp */
-  color: white;
-  padding: 15px 25px;
-  border-radius: 50px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+.social-btn.icon-only:hover {
+  background-color: var(--accent-color, #C59B27);
+  color: #FFFFFF;
 }
