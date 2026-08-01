@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "nombre": "lavanda vainilla",
+    "nombre": "Lavanda Vainilla",
     "peso": "160 GR.",
     "precio": 50000,
     "descripcion": "Un delicado equilibrio entre notas florales y dulces que invita al descanso, aporta armonía y llena cada espacio de una cálida sensación de bienestar.",
-    "imagen": "img/1_lavanda_vainilla.png",
+    "imagen": "img/lavanda vainilla.jpeg",
     "etiqueta": ""
   },
   {
     "id": 2,
-    "nombre": "bosque",
+    "nombre": "Bosque",
     "peso": "160 GR.",
     "precio": 50000,
     "descripcion": "Un aroma fresco y amaderado que transmite pureza, armonía y la serenidad de un bosque, creando un ambiente de calma y bienestar.",
-    "imagen": "img/2_bosque.png",
+    "imagen": "img/bosque.jpeg",
     "etiqueta": ""
   },
   {
     "id": 3,
-    "nombre": "oceano",
+    "nombre": "Océano",
     "peso": "160 GR.",
     "precio": 50000,
     "descripcion": "Una aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado.",
-    "imagen": "img/3_oceano.png",
-   
+    "imagen": "img/oceano.jpeg",
+    "etiqueta": ""
   }
 ]
