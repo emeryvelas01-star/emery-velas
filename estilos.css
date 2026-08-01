@@ -1,25 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  --bg-color: #FBF8F3;        /* Beige claro de fondo */
+  --card-bg: #FFFFFF;          /* Blanco para tarjetas */
+  --primary-color: #5C4033;   /* Café cálido */
+  --accent-color: #C59B27;    /* Dorado de la marca */
+  --text-dark: #333333;       /* Texto oscuro */
+  --text-muted: #666666;      /* Texto secundario */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 40px 20px 10px 20px;
+}
+
+.brand-title {
+  font-family: 'Alex Brush', cursive;
+  font-size: 3.8rem;
+  color: var(--primary-color);
+  margin: 0;
+  font-weight: normal;
+}
+
+.brand-subtitle {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 4px;
+  font-size: 0.85rem;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/* Iconos de Redes Sociales (Instagram y WhatsApp) */
 .social-links {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
 }
 
 .social-btn.icon-only {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 45px;
-  height: 45px;
-  border: 1px solid var(--accent-color, #C59B27);
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--accent-color);
   border-radius: 50%;
-  color: var(--primary-color, #5C4033);
-  font-size: 1.3rem;
+  color: var(--primary-color);
+  font-size: 1.2rem;
   text-decoration: none;
+  background-color: transparent;
   transition: all 0.3s ease;
 }
 
 .social-btn.icon-only:hover {
-  background-color: var(--accent-color, #C59B27);
+  background-color: var(--accent-color);
   color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* Contenedor del Catálogo */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Tarjetas de Producto */
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(197, 155, 39, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  margin: 15px 0 8px 0;
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.card .price {
+  font-weight: 600;
+  color: var(--accent-color);
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.btn-add {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.btn-add:hover {
+  background-color: var(--accent-color);
+}
+
+/* Botón Flotante Carrito WhatsApp */
+.cart-floating-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25D366; /* Verde WhatsApp */
+  color: white;
+  padding: 14px 22px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+  transition: transform 0.2s ease;
+}
+
+.cart-floating-btn:hover {
+  transform: scale(1.05);
 }
