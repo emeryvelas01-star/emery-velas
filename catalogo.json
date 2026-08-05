@@ -1,13 +1,14 @@
 [
      {
-    "id": 1,
+    "id": 3,
     "nombre": "Oceano",
     "peso": "100 GR.",
     "precio": 40000,
     "descripcion": "Un aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado",
     "imagen": "oceano_100g.jpg",
     "etiqueta": ""
-    {
+    },      
+     {
     "id": 2,
     "nombre": "Bosque",
     "peso": "100 GR.",
@@ -17,7 +18,7 @@
     "etiqueta": ""
   },
     {
-    "id": 3,
+    "id": 1,
     "nombre": "Lavanda Vainilla",
     "peso": "100 GR.",
     "precio": 40000,
@@ -51,5 +52,33 @@
     "descripcion": "Una aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado.",
     "imagen": "img/oceano.jpeg",
     "etiqueta": ""
-  }
+  },
+  {   
+"id": 7,
+    "nombre": "Lavanda Vainilla",
+    "peso": "200 GR.",
+    "precio": 70000,
+    "descripcion": "Un delicado equilibrio entre notas florales y dulces que invita al descanso, aporta armonía y llena cada espacio de una cálida sensación de bienestar.",
+    "imagen": "lav_vai_200g.jpg",
+    "etiqueta": ""
+  },
+   {
+    "id": 8,
+    "nombre": "Bosque",
+    "peso": "200 GR.",
+    "precio": 70000,
+    "descripcion": "Un aroma fresco y amaderado que transmite pureza, armonía y la serenidad de un bosque, creando un ambiente de calma y bienestar.",
+    "imagen": "bosque_2000g.jpg",
+    "etiqueta": ""
+  },
+     {
+    "id": 6
+    "nombre": "Océano",
+    "peso": "200 GR.",
+    "precio": 70000,
+    "descripcion": "Una aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado.",
+    "imagen": "oceano_200g.jpg",
+    "etiqueta": ""
+  }  
+      }
 ]
