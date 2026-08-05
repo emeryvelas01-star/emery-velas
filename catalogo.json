@@ -8,7 +8,7 @@
     "imagen": "img/lavanda_vainilla_100g.png",
     "etiqueta": ""
   },
-    {  
+{  
      "id": 2,
     "nombre": "Bosque",
     "peso": "100 GR.",
@@ -17,7 +17,7 @@
     "imagen": "bosque_200g.jpg",
     "etiqueta": ""
      },
-     {    
+ {    
     "id": 3,
     "nombre": "Oceano",
     "peso": "100 GR.",
@@ -26,7 +26,7 @@
     "imagen": "oceano_100g.jpg",
     "etiqueta": ""
      },
-   {
+{
     "id": 4,
     "nombre": "Lavanda Vainilla",
     "peso": "160 GR.",
@@ -35,7 +35,7 @@
     "imagen": "img/lavanda vainilla.jpeg",
     "etiqueta": ""
   },
-  {
+ {
     "id": 5,
     "nombre": "Bosque",
     "peso": "160 GR.",
@@ -44,7 +44,7 @@
     "imagen": "img/bosque.jpeg",
     "etiqueta": ""
   },
-  {
+ {
     "id": 6
     "nombre": "Océano",
     "peso": "160 GR.",
@@ -54,7 +54,7 @@
     "etiqueta": ""
   },
   {   
-"id": 7,
+    "id": 7,
     "nombre": "Lavanda Vainilla",
     "peso": "200 GR.",
     "precio": 70000,
@@ -71,7 +71,7 @@
     "imagen": "bosque_2000g.jpg",
     "etiqueta": ""
   },
-     {
+    {
     "id": 9
     "nombre": "Océano",
     "peso": "200 GR.",
