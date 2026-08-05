@@ -1,6 +1,15 @@
 [
-  {
+    {
     "id": 1,
+    "nombre": "Lavanda Vainilla",
+    "peso": "100 GR.",
+    "precio": 40000,
+    "descripcion": "Un delicado equilibrio entre notas florales y dulces que invita al descanso, aporta armonía y llena cada espacio de una cálida sensación de bienestar.",
+    "imagen": "img/lavanda_vainilla_100g.png",
+    "etiqueta": ""
+  },
+  {
+    "id": 2,
     "nombre": "Lavanda Vainilla",
     "peso": "160 GR.",
     "precio": 50000,
@@ -9,7 +18,7 @@
     "etiqueta": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "nombre": "Bosque",
     "peso": "160 GR.",
     "precio": 50000,
@@ -18,7 +27,7 @@
     "etiqueta": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "nombre": "Océano",
     "peso": "160 GR.",
     "precio": 50000,
