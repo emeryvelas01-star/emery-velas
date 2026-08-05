@@ -1,6 +1,15 @@
 [
     {
     "id": 1,
+    "nombre": "Bosque",
+    "peso": "100 GR.",
+    "precio": 70000,
+    "descripcion": "Un aroma fresco y amaderado que transmite pureza, armonía y la serenidad de un bosque, creando un ambiente de calma y bienestar.",
+    "imagen": "bosque_200g.jpeg",
+    "etiqueta": ""
+  },
+    {
+    "id": 2,
     "nombre": "Lavanda Vainilla",
     "peso": "100 GR.",
     "precio": 40000,
@@ -9,7 +18,7 @@
     "etiqueta": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "nombre": "Lavanda Vainilla",
     "peso": "160 GR.",
     "precio": 50000,
@@ -18,7 +27,7 @@
     "etiqueta": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "nombre": "Bosque",
     "peso": "160 GR.",
     "precio": 50000,
@@ -27,7 +36,7 @@
     "etiqueta": ""
   },
   {
-    "id": 4,
+    "id": 5,
     "nombre": "Océano",
     "peso": "160 GR.",
     "precio": 50000,
