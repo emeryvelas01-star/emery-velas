@@ -5,7 +5,7 @@
     "peso": "100 GR.",
     "precio": 40000,
     "descripcion": "Un delicado equilibrio entre notas florales y dulces que invita al descanso, aporta armonía y llena cada espacio de una cálida sensación de bienestar.",
-    "imagen": "lavanda_vainilla_100g",
+    "imagen": "img/lavanda-vainilla_100g.png",
     "etiqueta": ""
   },
   {
@@ -14,7 +14,7 @@
     "peso": "100 GR.",
     "precio": 40000,
     "descripcion": "Un aroma fresco y amaderado que transmite pureza, armonía y la serenidad de un bosque, creando un ambiente de calma y bienestar.",
-    "imagen": "bosque_100g",
+    "imagen": "img/bosque_100g.jpg",
     "etiqueta": ""
   },
   {
@@ -23,7 +23,7 @@
     "peso": "100 GR.",
     "precio": 40000,
     "descripcion": "Un aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado.",
-    "imagen": "oceano_100g",
+    "imagen": "img/oceano_100g.jpg",
     "etiqueta": ""
   },
   {
@@ -32,7 +32,7 @@
     "peso": "160 GR.",
     "precio": 50000,
     "descripcion": "Un delicado equilibrio entre notas florales y dulces que invita al descanso, aporta armonía y llena cada espacio de una cálida sensación de bienestar.",
-    "imagen": "lavanda_vainilla_160g",
+    "imagen": "img/lavanda_vainilla_160g.jpg",
     "etiqueta": ""
   },
   {
@@ -41,7 +41,7 @@
     "peso": "160 GR.",
     "precio": 50000,
     "descripcion": "Un aroma fresco y amaderado que transmite pureza, armonía y la serenidad de un bosque, creando un ambiente de calma y bienestar.",
-    "imagen": "bosque_160g",
+    "imagen": "img/bosque_160g.jpg",
     "etiqueta": ""
   },
   {
@@ -50,7 +50,7 @@
     "peso": "160 GR.",
     "precio": 50000,
     "descripcion": "Un aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado.",
-    "imagen": "oceano_160g",
+    "imagen": "img/oceano_160g.jpg",
     "etiqueta": ""
   },
   {
@@ -59,7 +59,7 @@
     "peso": "200 GR.",
     "precio": 70000,
     "descripcion": "Un delicado equilibrio entre notas florales y dulces que invita al descanso, aporta armonía y llena cada espacio de una cálida sensación de bienestar.",
-    "imagen": "lavanda_vainilla_200g",
+    "imagen": "img/lav_vai_200g.jpg",
     "etiqueta": ""
   },
   {
@@ -68,7 +68,7 @@
     "peso": "200 GR.",
     "precio": 70000,
     "descripcion": "Un aroma fresco y amaderado que transmite pureza, armonía y la serenidad de un bosque, creando un ambiente de calma y bienestar.",
-    "imagen": "bosque_200g",
+    "imagen": "img/bosque_2000g.jpg",
     "etiqueta": ""
   },
   {
@@ -77,7 +77,7 @@
     "peso": "200 GR.",
     "precio": 70000,
     "descripcion": "Un aroma que combina la frescura revitalizante del océano con la calidez del sándalo. Su aroma crea un ambiente sereno y equilibrado.",
-    "imagen": "oceano_200g",
+    "imagen": "img/oceano_200g.jpg",
     "etiqueta": ""
   },
   {
@@ -86,7 +86,7 @@
     "peso": "200 GR.",
     "precio": 70000,
     "descripcion": "Un aroma dulce y cálido, inspirado en la suavidad de un praliné recién preparado. Sus notas dulces y cremosas se combinan con un delicado toque acaramelado, creando una fragancia reconfortante.",
-    "imagen": "praline_200g",
+    "imagen": "imgpraline_200g.jpg",
     "etiqueta": ""
   },
   {
@@ -95,7 +95,7 @@
     "peso": "200 GR.",
     "precio": 70000,
     "descripcion": "Una fragancia fresca, frutal y luminosa que llena el ambiente de una sensación limpia y alegre. La dulzura jugosa del melón se combina con el toque fresco y ligeramente ácido de la manzana, creando un aroma equilibrado, vibrante y muy agradable.",
-    "imagen": "melon_manzana_200g",
+    "imagen": "imgmelon_manzana_200g.jpg",
     "etiqueta": ""
   },
   {
@@ -104,7 +104,7 @@
     "peso": "200 GR.",
     "precio": 70000,
     "descripcion": "La suavidad cremosa del coco se mezcla con la dulzura reconfortante de la vainilla, creando un aroma delicado, acogedor y agradable para llenar tus espacios. Si te gusta lo dulce y relajado.",
-    "imagen": "coco_vainilla_200g",
+    "imagen": "imgcoco_vainilla_200g.jpg",
     "etiqueta": ""
   }
 ]
